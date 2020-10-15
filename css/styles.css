@@ -34,13 +34,13 @@ p{
   overflow: hidden;
 }
 
-#site_content {
-  height: 1000px;
-}
+
 #site_footer {
   height: 150px;
 }
-
+.row{
+  margin: 40px 0;
+}
 .row::after{
   content: "";
   display: table;
@@ -164,4 +164,26 @@ nav a {
 #under_header_text_banner p {
   font-size: 1.15em;
   color: #808080;
+}
+/* First cards row */
+
+.card {
+  text-align: center;
+  padding: 0 2em;
+}
+.card img {
+  height: 150px;
+  margin-bottom: 2em;
+}
+.card h3 {
+  font-weight: 500;
+  font-size: 1.5em;
+  color: #7CBB02;
+}
+.card hr {
+  width: 30%;
+  display: inline-block;
+  margin: 20px 0;
+  text-align: center;
+  
 }
