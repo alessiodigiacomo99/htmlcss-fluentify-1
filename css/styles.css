@@ -23,7 +23,15 @@ p{
 }
 
 #site_header {
+  background-image: url("../img/banner_header.png");
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  background-position: 115% 110%;
+  width: 100%;
+  min-width: 1400px;
+  padding: 0 10%;
   height: 550px;
+  overflow: hidden;
 }
 
 #site_content {
@@ -52,6 +60,7 @@ p{
 .container {
   width: 80%;
   margin: auto;
+
 }
 
 /* sezione navbar */
@@ -138,12 +147,6 @@ nav a {
 }
 
 
-.hero_container{
-  background-image: url("../img/banner_header.png");
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position: 110% 110%;
-}
 
 /* main site_content*/
 
@@ -162,5 +165,3 @@ nav a {
   font-size: 1.15em;
   color: #808080;
 }
-
-
