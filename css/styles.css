@@ -117,6 +117,7 @@ p{
 }
 
 .btn {
+  display: inline-block;
   color: white;
   text-transform: uppercase;
   text-decoration: none;
