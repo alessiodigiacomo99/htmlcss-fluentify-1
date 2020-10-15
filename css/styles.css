@@ -144,3 +144,23 @@ nav a {
   background-repeat: no-repeat;
   background-position: 110% 110%;
 }
+
+/* main site_content*/
+
+#under_header_text_banner{
+  padding: 2em 0;
+  text-align: center;
+}
+
+#under_header_text_banner h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+#under_header_text_banner p {
+  font-size: 1.15em;
+  color: #808080;
+}
+
+
