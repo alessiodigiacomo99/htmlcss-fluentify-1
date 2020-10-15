@@ -124,6 +124,13 @@ p{
   border-radius: 10px;
   padding: 20px 10px;
 }
+.btn_sm {
+  display: inline;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 10px;
+}
 
 .hero_container{
   background-image: url("../img/banner_header.png");
