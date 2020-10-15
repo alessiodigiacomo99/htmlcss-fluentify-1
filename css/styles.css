@@ -89,7 +89,7 @@ p{
 .menu_left {
   width: 55%;
 }
-.menu_left a, .menu_right a {
+nav a {
   padding: 10px;
 }
 
@@ -131,6 +131,12 @@ p{
   text-decoration: none;
   border-radius: 10px;
 }
+
+.menu_right > .btn_outline {
+  border: 1px solid white;
+  padding: 0.75em 2em;
+}
+
 
 .hero_container{
   background-image: url("../img/banner_header.png");
