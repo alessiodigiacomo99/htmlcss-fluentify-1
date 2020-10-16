@@ -18,12 +18,27 @@ body{
 .bg_grey{
   background: #D3D3D3;
 }
-/* classi utility */
-
-p{
-  color: #D3D3D3;
+.p_20 {
+  padding: 20px;
+}
+.p_40 {
+  padding: 40px;
+}
+.lead {
+  font-size: 1.2em;
+}
+.text_center {
+  text-align: center;
+}
+.big_title {
+  font-size: 1.75em;
+  font-weight: 500;
 }
 
+/* classi utility */
+p{
+  color: #808080;
+}
 
 
 #site_content {
@@ -67,9 +82,10 @@ p{
 
 /* sezione navbar */
 .navbar {
+  height: 80px;
   color: white;
-  line-height: 80px;
   font-size: 11px;
+  line-height: 80px;
   text-transform: uppercase;
 }
 .navbar::after {
@@ -93,6 +109,7 @@ p{
 
 .logo {
   width: 15%;
+  margin-top: 10px;
 }
 
 .menu_left {
@@ -137,3 +154,6 @@ p{
 .btn_sm {
   border-radius: 10px;
 }
+
+
+/* main content classes */
