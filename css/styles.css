@@ -5,6 +5,8 @@
 }
 body{
   font-family: 'Roboto', sans-serif;
+  min-width: 1400px;
+  overflow-x: hidden;
 }
 /* classi utility */
 .bg_blue{
@@ -22,9 +24,7 @@ p{
   color: #D3D3D3;
 }
 
-#site_header {
-  height: 550px;
-}
+
 
 #site_content {
   height: 1000px;
@@ -52,6 +52,17 @@ p{
 .container {
   width: 80%;
   margin: auto;
+}
+
+
+#site_header {
+  height: 550px;
+  /* min-width: 1400px; */
+  /* overflow: hidden; */
+  background-image: url(../img/banner_header.png);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: 110% 110%;
 }
 
 /* sezione navbar */
@@ -122,13 +133,4 @@ p{
   text-decoration: none;
   border-radius: 10px;
   padding: 20px 10px;
-}
-
-
-
-.hero_container{
-  background-image: url("../img/banner_header.png");
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position: 110% 110%;
 }
